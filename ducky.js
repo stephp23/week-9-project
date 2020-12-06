@@ -16,8 +16,10 @@ window.onload = function() {
   // https://www.w3schools.com/jsref/met_win_setinterval.asp
 
   setInterval(function () {
-    duck.c
-  })
+    elementDuck.classList.toggle("flap");
+  }, 250);
+
+  
 
   // 3. Now, let's move the duck using CSS "top" and "left". Create
   // a function `moveDuck` that takes a duck object as an argument and sets the
